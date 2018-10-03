@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/comment/main",
+    "pages/Me/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat6699",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#2089eb",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "首页",
+      "iconPath":"static/img/s33.jpg",
+      "selectedIconPath":"static/img/s3.jpg"
+    }, {
+      "pagePath": "pages/comment/main",
+      "text": "评论",
+      "iconPath":"static/img/s22.jpg",
+      "selectedIconPath":"static/img/s2.jpg"
+    }, {
+      "pagePath": "pages/Me/main",
+      "text": "我的",
+      "iconPath":"static/img/s11.jpg",
+      "selectedIconPath":"static/img/s1.jpg"
+    }]
+  }
+}
