@@ -41,6 +41,18 @@ router.post('/addbook',controllers.addbook)
 //获取图书列表
 router.get('/booklist',controllers.booklist)
 
+//获取图书详情
+router.get('/bookdetail',controllers.bookdetail)
+
+//获取排名阅读靠前的图书
+router.get('/top',controllers.top)
+
+//将发送过来的评论数据存入数据库
+router.post('/addcomment',controllers.addcomment)
+
+//获取评论列表
+router.get('/commentlist',controllers.commentlist)
+
 
 
 module.exports = router

@@ -12,3 +12,12 @@ create table books(
     tags varchar(100),
     author varchar(100)
 )
+
+CREATE TABLE comments(
+    id int auto_increment PRIMARY KEY,
+    openid VARCHAR(100) NOT NULL,
+    bookid VARCHAR(10) NOT NULL,
+    comment VARCHAR(200) NOT NULL,
+    phone VARCHAR(50),
+    location VARCHAR(50)
+)

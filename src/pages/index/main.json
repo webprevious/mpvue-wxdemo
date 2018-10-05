@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#EA5A49",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "找帮图书",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh":true
+}

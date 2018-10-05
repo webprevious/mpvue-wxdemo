@@ -19,4 +19,16 @@ export default {
 .btn:active{
     background: #Fa5a49;
 }
+.text-primary{
+    color: #ea5a49;
+}
+.right{
+    float: right;
+}
+.page-title{
+    padding-left: 20px;
+    background: #eee;
+    line-height: 40px;
+    font-size: 14px;
+}
 </style>

@@ -1,13 +1,11 @@
 <template>
     <div class="rate">
-        <!-- <span>☆☆☆☆☆</span>
-        <div class="hollow" :style="style">★★★★★</div> -->
-        <Rate value="1"></Rate>
+        <span>☆☆☆☆☆</span>
+        <div class="hollow" :style="style">★★★★★</div>
     </div>
 </template>
 
 <script>
-import Rate from 'vue-tiny-rate';
 export default{
     props: {
         value:{
@@ -15,19 +13,16 @@ export default{
             default:"0"
         }
     },
-    // computed: {
-    //     style(){
-    //         return `width:${this.value/2-0.7}em`
-    //     }
-    // }
-    components: {
-        Rate
-    }
+    computed: {
+        style(){
+            return `width:${this.value/2.4}em`
+        }
+    },
 }
 </script>
 
-<style scoped>
-/* .rate{
+<style scoped lang="stylus">
+.rate{
     position: relative;
     display: inline-block;
     .hollow{
@@ -38,5 +33,5 @@ export default{
         width:0;
         overflow: hidden;
     }
-} */
+}
 </style>

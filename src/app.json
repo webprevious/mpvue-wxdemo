@@ -2,13 +2,14 @@
   "pages": [
     "pages/index/main",
     "pages/comment/main",
-    "pages/Me/main"
+    "pages/Me/main",
+    "pages/detail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat6699",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#EA5A49",
+    "navigationBarTitleText": "找帮图书",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor":"#2089eb",
